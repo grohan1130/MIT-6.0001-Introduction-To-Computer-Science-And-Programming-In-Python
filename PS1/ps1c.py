@@ -20,8 +20,6 @@ semi_annual_raise_rate = 1.07
 salary_saved_portion = 0.0
 
 
-
-
 def get_total_savings(monthly_salary, semi_annual_raise_rate, salary_saved_portion):
     total_savings = 0
     for month in range(36):
